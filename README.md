@@ -22,7 +22,26 @@ ddd-cargo-example是一个单Maven模块的项目，DDD+CQRS落地示例，基�
 
 2. 初始化数据库脚本文件`/ddd-cargo-example/mysql_init.sql`
 
+    a. login mysql
+
+    ```bash
+     mysql -u root -p
+     ```
+
+    b. create database manually using SQL
+
+    ```bash
+    CREATE DATABASE `ddd-sayi-db`;
+    use `ddd-sayi-db`;
+    source /ddd-cargo-example/mysql_init.sql
+    ```
+
 3. 运行`/ddd-cargo-example/src/main/java/com/deepoove/cargo/CargoApplication.java`
+  
+  ```bash
+  maven clean install
+  java -jar target/ddd-cargo-example-0.0.1-SNAPSHOT.jar
+  ```
 
 4. 浏览器访问`http://127.0.0.1:8077/index.html`
 
