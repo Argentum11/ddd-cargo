@@ -43,7 +43,7 @@ ddd-cargo-example是一个单Maven模块的项目，DDD+CQRS落地示例，基�
   java -jar target/ddd-cargo-example-0.0.1-SNAPSHOT.jar
   ```
 
-4. 浏览器访问`http://127.0.0.1:8077/index.html`
+4. 浏览器访问 [Cargo Admin](http://127.0.0.1:8077/index.html)
 
 #### 查询Cargo
 ![](./cargo_home.png)
