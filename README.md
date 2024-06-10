@@ -56,6 +56,7 @@ spring.datasource.password=USER_PASSWORD
   ```bash
   mvn clean install
   java -jar target/ddd-cargo-example-0.0.1-SNAPSHOT.jar
+
   ```
 
 4. Access [Cargo Admin](http://127.0.0.1:8077/index.html) via your browser.
