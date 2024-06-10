@@ -54,7 +54,7 @@ spring.datasource.password=USER_PASSWORD
 3. run `/ddd-cargo-example/src/main/java/com/deepoove/cargo/CargoApplication.java`
   
   ```bash
-  maven clean install
+  mvn clean install
   java -jar target/ddd-cargo-example-0.0.1-SNAPSHOT.jar
   ```
 
